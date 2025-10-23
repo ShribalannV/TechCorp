@@ -46,7 +46,7 @@ namespace TechCorp
 
                 context.Companies.Add(company);
                 context.SaveChanges();
-                Console.WriteLine("✅ Sample data added!");
+                Console.WriteLine("Sample data added!");
             }
 
             // Display all companies, blogs, posts, clients, and comments
