@@ -14,7 +14,7 @@ namespace EFDemo
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Data Source=SHRIBALAN-LAP;Initial Catalog=CompanyDB;Integrated Security=True;TrustServerCertificate=True"
+                @"Data Source=SHRIBALAN-LAP;Initial Catalog=TechCorpDB;Integrated Security=True;TrustServerCertificate=True"
             );
         }
     }

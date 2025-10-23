@@ -64,7 +64,7 @@ namespace TechCorp
 
                 context.Companies.Add(company);
                 context.SaveChanges();
-                Console.WriteLine("✅ Sample data added!\n");
+                Console.WriteLine("Sample data added!\n");
             }
 
             // Display all data
